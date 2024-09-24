@@ -1,0 +1,27 @@
+header{
+    width: 90rem;
+    height: 7rem;
+    background-color: #66D1FF;
+}
+a{
+    text-decoration: none;
+}
+.header_button{
+    background-size: 276px 45px 34px;
+    background-position: left 84px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    font-size: 194px 29px;
+    top: 42px;
+    left: 122px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: center;
+}
+
+
