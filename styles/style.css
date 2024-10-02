@@ -1,0 +1,143 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-500 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v26-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/oswald-v53-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+a{
+    text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.container{
+  width: auto;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+header{
+    width: auto;
+    height: 112px;
+    background-color: #66D1FF;
+}
+.header_button{
+    background: 276px 45px #fff;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 29.26px;
+}
+.nav_phone{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34.13px;
+}
+.promo{
+  padding: 240px 81px 260px;
+  background-image: url('../images/bg-promo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+}
+.title_promo{
+  font-family: 'Oswald',sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 88.92px;
+}
+.desc_promo{
+  font-family:'Montserrat' sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39.01px;
+}
+.benefits{
+  padding: 170px 81px;
+  background-color:#66D1FF;
+  border-bottom: 1px solid rgba(6, 13, 16, 1);
+}
+.title_benefits{
+  font-family:'Oswald' sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80.16px;
+  color: #060D10;
+  text-align: center;
+}
+.benefit h3{
+  font-family:'Oswald' sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 53.44px;
+  color: #060D10;
+  text-align: left;
+}
+.benefit p{
+  font-family:'Montserrat' sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36.4px;
+  color: #060D10;
+  text-align: left;
+}
+.end{
+  padding: 170px 81px 180px;
+  text-align: center;
+}
+.title_go{
+  font-family:'Oswald' sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80.16px;
+  color: #060D10;
+  text-align: center;
+}
+.button{
+  font-family:'Montserrat' sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 43.88px;
+  color: #060D10;
+  text-align: center;
+}
+footer{
+  background-color:#060D10;
+}
+.footer_text{
+  font-family:'Montserrat' sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33.4px;
+  color: #fff;
+}
+.footer_copy{
+  font-family:'Montserrat' sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.94px;
+  color: #fff;
+  text-align: right;
+}
