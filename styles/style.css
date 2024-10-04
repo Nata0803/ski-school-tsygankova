@@ -29,6 +29,14 @@
   /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+* {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -40,20 +48,19 @@ li {
 .container {
   width: auto;
   margin: 0 auto;
-  border: 2px solid red;
 }
 
 header {
   width: auto;
-  height: 112px;
+  padding: 31px 81px 30px;
   background-color: #66D1FF;
 }
 
-.header_nav {
+.header_ul {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -66,6 +73,11 @@ header {
   font-size: 24px;
   text-align: center;
   line-height: 29.26px;
+}
+
+.nav_logo {
+  width: 296px;
+  height: 51px;
 }
 
 .nav_phone {
@@ -87,6 +99,7 @@ header {
 }
 
 .title_promo {
+  margin-bottom: 60px;
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 60px;
@@ -102,12 +115,13 @@ header {
 
 .benefits {
   padding: 170px 81px;
-  background-color: rgba(102, 209, 255, 1);
+  background-color: rgba(102, 209, 255, 0.1);
   border-bottom: 1px solid rgba(6, 13, 16, 1);
 }
 
 .title_benefits {
-  font-family: 'Oswald' sans-serif;
+  margin-bottom: 100px;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 80.16px;
@@ -128,7 +142,7 @@ header {
 }
 
 .benefit h3 {
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 53.44px;
@@ -151,23 +165,36 @@ header {
 }
 
 .title_go {
-  font-family: 'Oswald' sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 80.16px;
   color: #060D10;
   text-align: center;
 }
-
+.wrap_button{
+  margin-top: 60px;
+  margin-bottom: 130px;
+}
 .button {
-  font-family: 'Montserrat' sans-serif;
+  padding: 20px 107px 22px 108px;
+  border: 3px solid #060D10;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 43.88px;
   color: #060D10;
   text-align: center;
 }
-
+.end_wrap{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.end_wrap img{
+  size: 297px 297px;
+}
 footer {
   background-color: #060D10;
 }
