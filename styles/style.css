@@ -162,6 +162,7 @@ header {
 .end {
   padding: 170px 81px 180px;
   text-align: center;
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, 0.1) 43.85%, rgba(196, 196, 196, 0.1) 43.86%);
 }
 
 .title_go {
@@ -172,10 +173,12 @@ header {
   color: #060D10;
   text-align: center;
 }
-.wrap_button{
+
+.wrap_button {
   margin-top: 60px;
   margin-bottom: 130px;
 }
+
 .button {
   padding: 20px 107px 22px 108px;
   border: 3px solid #060D10;
@@ -187,19 +190,21 @@ header {
   color: #060D10;
   text-align: center;
 }
-.end_wrap{
+
+.end_wrap {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
 }
-.end_wrap img{
-  size: 297px 297px;
+.photo{
+  flex-basis: calc(25% - 90px);
 }
+
 footer {
+  padding: 35px 81px 35px 98px;
   background-color: #060D10;
 }
 
-ul_footer {
+.ul_footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -208,7 +213,7 @@ ul_footer {
 }
 
 .footer_text {
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 33.4px;
@@ -216,10 +221,14 @@ ul_footer {
 }
 
 .footer_copy {
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 21.94px;
   color: #fff;
   text-align: right;
+}
+
+.social_link ~ .social link{
+  margin-left: 20px;
 }
