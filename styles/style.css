@@ -104,6 +104,7 @@ header {
   font-weight: 500;
   font-size: 60px;
   line-height: 88.92px;
+  shadow: 1px 1px 2px 0px #060D10;
 }
 
 .desc_promo {
@@ -111,6 +112,7 @@ header {
   font-weight: 500;
   font-size: 32px;
   line-height: 39.01px;
+  shadow: 1px 1px 2px 0px #060D10;
 }
 
 .benefits {
@@ -165,6 +167,7 @@ header {
   background: linear-gradient(208.35deg, rgba(102, 209, 255, 0.1) 43.85%, rgba(196, 196, 196, 0.1) 43.86%);
 }
 
+
 .title_go {
   font-family: 'Oswald', sans-serif;
   font-weight: 500;
@@ -195,7 +198,8 @@ header {
   display: flex;
   justify-content: space-between;
 }
-.photo{
+
+.photo {
   flex-basis: calc(25% - 90px);
 }
 
@@ -229,6 +233,6 @@ footer {
   text-align: right;
 }
 
-.social_link ~ .social link{
+.social_link~.social link {
   margin-left: 20px;
 }
